@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">NasoConverter</string>
+    <string name="tab_title_0">TO COINS</string>
+    <string name="tab_title_1">TO MONEY</string>
+    <string name="_0">0</string>
+    <string name="dollar">$</string>
+</resources>

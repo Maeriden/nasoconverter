@@ -4,4 +4,9 @@
     <string name="tab_title_1">TO MONEY</string>
     <string name="_0">0</string>
     <string name="dollar">$</string>
+    <string name="scudiera">Scudiera</string>
+    <string name="garzub">Garzub</string>
+    <string name="draco">Draco</string>
+    <string name="torcia">Torcia</string>
+    <string name="legno">Legno</string>
 </resources>

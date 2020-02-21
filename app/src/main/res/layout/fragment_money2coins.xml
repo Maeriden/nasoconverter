@@ -4,6 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
+    android:paddingLeft="5dp"
+    android:paddingRight="5dp"
     tools:context="it.meridian.nasoconverter.FragmentMoney2Coins">
 
     <LinearLayout
@@ -13,142 +15,212 @@
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="64dp"
-            android:layout_weight="1"
-            android:gravity="center_vertical|end"
-            android:orientation="horizontal"
-            android:paddingTop="3dp"
-            android:paddingBottom="3dp">
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:layout_marginBottom="3dp"
+            android:orientation="vertical">
 
             <TextView
-                android:id="@+id/t4"
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:layout_marginEnd="5dp"
-                android:gravity="center_vertical|end"
-                android:text="@string/_0"
-                android:textSize="36sp" />
-
-            <it.meridian.nasoconverter.ToggleCoin
-                android:id="@+id/c4"
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:adjustViewBounds="true"
-                android:scaleType="centerInside"
-                android:src="@drawable/coin_scudiera"
-                tools:ignore="ContentDescription" />
+                android:gravity="bottom|end"
+                android:text="@string/scudiera" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="64dp"
+                android:gravity="center_vertical|end"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/t4"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginEnd="5dp"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical|end"
+                    android:text="@string/_0"
+                    android:textSize="36sp" />
+
+                <it.meridian.nasoconverter.ToggleCoin
+                    android:id="@+id/c4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:adjustViewBounds="true"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/coin_scudiera"
+                    tools:ignore="ContentDescription" />
+            </LinearLayout>
         </LinearLayout>
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="64dp"
-            android:layout_weight="1"
-            android:gravity="center_vertical|end"
-            android:orientation="horizontal"
-            android:paddingTop="3dp"
-            android:paddingBottom="3dp">
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:layout_marginBottom="3dp"
+            android:orientation="vertical">
 
             <TextView
-                android:id="@+id/t3"
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:layout_marginEnd="5dp"
-                android:gravity="center_vertical|end"
-                android:text="@string/_0"
-                android:textSize="36sp" />
-
-            <it.meridian.nasoconverter.ToggleCoin
-                android:id="@+id/c3"
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:adjustViewBounds="true"
-                android:scaleType="centerInside"
-                android:src="@drawable/coin_garzub"
-                tools:ignore="ContentDescription" />
+                android:gravity="bottom|end"
+                android:text="@string/garzub" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="64dp"
+                android:gravity="center_vertical|end"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/t3"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginEnd="5dp"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical|end"
+                    android:text="@string/_0"
+                    android:textSize="36sp" />
+
+                <it.meridian.nasoconverter.ToggleCoin
+                    android:id="@+id/c3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:adjustViewBounds="true"
+                    android:scaleType="centerInside"
+                    android:scaleX="0.7"
+                    android:scaleY="0.7"
+                    android:src="@drawable/coin_garzub"
+                    tools:ignore="ContentDescription" />
+            </LinearLayout>
+
         </LinearLayout>
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="64dp"
-            android:layout_weight="1"
-            android:gravity="center_vertical|end"
-            android:orientation="horizontal"
-            android:paddingTop="3dp"
-            android:paddingBottom="3dp">
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:layout_marginBottom="3dp"
+            android:orientation="vertical">
 
             <TextView
-                android:id="@+id/t2"
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:layout_marginEnd="5dp"
-                android:gravity="center_vertical|end"
-                android:text="@string/_0"
-                android:textSize="36sp" />
-
-            <it.meridian.nasoconverter.ToggleCoin
-                android:id="@+id/c2"
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:adjustViewBounds="true"
-                android:scaleType="centerInside"
-                android:src="@drawable/coin_draco"
-                tools:ignore="ContentDescription" />
+                android:gravity="bottom|end"
+                android:text="@string/draco" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="64dp"
+                android:gravity="center_vertical|end"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/t2"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginEnd="5dp"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical|end"
+                    android:text="@string/_0"
+                    android:textSize="36sp" />
+
+                <it.meridian.nasoconverter.ToggleCoin
+                    android:id="@+id/c2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:adjustViewBounds="true"
+                    android:scaleType="centerInside"
+                    android:scaleX="0.8"
+                    android:scaleY="0.8"
+                    android:src="@drawable/coin_draco"
+                    tools:ignore="ContentDescription" />
+            </LinearLayout>
         </LinearLayout>
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="64dp"
-            android:layout_weight="1"
-            android:gravity="center_vertical|end"
-            android:orientation="horizontal"
-            android:paddingTop="3dp"
-            android:paddingBottom="3dp">
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:layout_marginBottom="3dp"
+            android:orientation="vertical">
 
             <TextView
-                android:id="@+id/t1"
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:layout_marginEnd="5dp"
-                android:gravity="center_vertical|end"
-                android:text="@string/_0"
-                android:textSize="36sp" />
-
-            <it.meridian.nasoconverter.ToggleCoin
-                android:id="@+id/c1"
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:adjustViewBounds="true"
-                android:scaleType="centerInside"
-                android:src="@drawable/coin_torcia"
-                tools:ignore="ContentDescription" />
+                android:gravity="bottom|end"
+                android:text="@string/torcia" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="64dp"
+                android:gravity="center_vertical|end"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/t1"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginEnd="5dp"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical|end"
+                    android:text="@string/_0"
+                    android:textSize="36sp" />
+
+                <it.meridian.nasoconverter.ToggleCoin
+                    android:id="@+id/c1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:adjustViewBounds="true"
+                    android:scaleType="centerInside"
+                    android:scaleX="0.6"
+                    android:scaleY="0.6"
+                    android:src="@drawable/coin_torcia"
+                    tools:ignore="ContentDescription" />
+            </LinearLayout>
         </LinearLayout>
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="64dp"
-            android:layout_weight="1"
-            android:gravity="center_vertical|end"
-            android:orientation="horizontal"
-            android:paddingTop="3dp"
-            android:paddingBottom="3dp">
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:layout_marginBottom="3dp"
+            android:orientation="vertical">
 
             <TextView
-                android:id="@+id/t0"
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:layout_marginEnd="5dp"
-                android:gravity="center_vertical|end"
-                android:text="@string/_0"
-                android:textSize="36sp" />
-
-            <it.meridian.nasoconverter.ToggleCoin
-                android:id="@+id/c0"
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:adjustViewBounds="true"
-                android:scaleType="centerInside"
-                android:src="@drawable/coin_legno"
-                tools:ignore="ContentDescription" />
+                android:gravity="bottom|end"
+                android:text="@string/legno" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="64dp"
+                android:gravity="center_vertical|end"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/t0"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginEnd="5dp"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical|end"
+                    android:text="@string/_0"
+                    android:textSize="36sp" />
+
+                <it.meridian.nasoconverter.ToggleCoin
+                    android:id="@+id/c0"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:adjustViewBounds="true"
+                    android:scaleType="centerInside"
+                    android:scaleX="0.4"
+                    android:scaleY="0.4"
+                    android:src="@drawable/coin_legno"
+                    app:checkable="false"
+                    tools:ignore="ContentDescription" />
+            </LinearLayout>
         </LinearLayout>
 
         <EditText

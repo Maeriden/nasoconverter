@@ -20,7 +20,7 @@ class ToggleCoin(context: Context, attributeSet: AttributeSet?, defStyleAttr: In
     init
     {
         val attrs: TypedArray? = context.obtainStyledAttributes(attributeSet, R.styleable.ToggleCoin, defStyleAttr, defStyleRes)
-        this.checkable = attrs?.getBoolean(R.styleable.ToggleCoin_checkable, false) ?: false
+        this.checkable = attrs?.getBoolean(R.styleable.ToggleCoin_checkable, true) ?: true
         this.checked   = attrs?.getBoolean(R.styleable.ToggleCoin_checked, false) ?: false
         attrs?.recycle()
 
